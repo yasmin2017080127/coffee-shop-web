@@ -1,0 +1,98 @@
+
+.links
+ {
+     border-radius: 10px;
+}
+.links:hover
+{
+background-color:purple;
+}
+.zoom
+{
+    transition:transform 2s;
+}
+.zoom:hover
+{
+    transform:scale(1.5);
+}
+   
+body{
+    font-family: latha;
+                color:white;
+                background: linear-gradient(
+                    rgba(0,0,0,0.65), rgba(0,0,0,0.65), rgba(0,0,0,0.38), rgba(0,0,0,0)
+                )
+                ,url(1.jpg)no-repeat;
+                background-size: cover;
+
+            }
+
+            .box{ width: 900px;
+            float:right;
+            border:1px solid none;}
+
+            .box ul li{
+                    width:120px;
+                    float:left;
+                    margin: 10px auto;
+                    text-align: center;
+            }
+
+            .box ul li a{ text-decoration: none;
+            color:darkgrey;}
+
+            .box ul li:hover{ background-color: darkorange;}
+            .box ul li a:hover{ color:white;}
+
+            .wd{
+                width: 300px;
+                height: 539px;
+                background-color: black;
+                opacity: 0.9;
+                padding: 55px;
+            }
+            .wd h1{
+                    text-align: center;
+                    font-weight: 200px;
+                    font-size: 300%;
+                    font-style: italic;
+            }
+            padding-top: 70px; 
+}
+
+
+            .wd h4{
+                text-align: justify;
+                color: darkgray;
+                font: weight 150px;
+                font-style: oblique;
+             
+            }
+            .wd h2{
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    margin: 40px auto;
+            }
+
+            .opt form,space input[type="button"]{
+                background-color: black;
+                color: white;
+                padding: 10px;
+                margin: -14px auto;
+                padding-left: 50px;
+                padding-right: 50px;
+                text-align: center;
+            }
+            .jumbotron {
+                color: #2c3e50; 
+                background:;
+                }
+                .navbar-inverse{
+                background:#2c3e50; 
+                }
+                
+                a{
+                color: white;
+                }
+
