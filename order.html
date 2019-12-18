@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Order</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+ 
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="order.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+     </head>
+         <div class="box">
+         <ul type="none">
+                <li><a href="home.html"> Home</a></li>
+                <li><a href="menu.html"> Menu</a></li>
+                <li><a href="gallery.html"> Gallery</a></li>
+                <li><a href="contact.html"> Contact us</a></li>
+                 
+        </ul>
+        </div>
+
+  <main>
+
+    <div class="container text-center">
+
+      <h1 class="py-4 text-danger">
+        Order Here
+      </h1>
+
+      <div class="d-flex py-2 justify-content-center">
+
+        <form class="w-50">
+
+          <input type="text" id="index" class="form-control" autocomplete="off"
+            placeholder="Name" />
+
+          <input type="text" id="service" class="form-control" autocomplete="off"
+            placeholder="Adress " />
+          <div class="row">
+
+            <div class="col">
+
+              <input type="text" id="username" class="form-control m-0" autocomplete="off"
+                placeholder="Phone Number" />
+
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="d-flex justify-content-center">
+          <form action=""method="post">
+            <a href="pay.html"> pay</a>
+              <a href="menu.html"> cancel order</a>
+              <a href="home.html"> Exit</a>
+              
+          </form>
+
+      </div>
+
+      <div class="d-flex table-data justify-content-center">
+
+        <table class="table table-striped justify-content-center">
+
+
+          <tbody id="tbody">
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+      <div id="notfound"></div>
+
+    </div>
+
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+
+  <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+
+</body>
+
+</html>
