@@ -1,0 +1,13 @@
+  <div class="text-center">
+    <h1></h1>
+    <h1>You have successfully registered!</h1>
+    <h2>TO COFFEE SHOP</h2>
+    <h3>Dear <%= user.name %>, Thank you for choosing us!</h3>
+    
+    <a href="/users/logout" class="btn btn-primary btn-circle">Logout</a>
+    <form action="/delete" method="post">
+        <input type="text" class="form-control" name="id" value="<%= user._id %>" hidden>
+        <button type="submit" class="btn btn-outline-secondary" style="margin: 2px;"> Delete Account </button>
+        </form>
+    <a href="https://yasmin2017080127-coffee-shop-website-1.glitch.me/home.html" class="btn btn-info">Visit our website to enjoy the world class coffee</a>
+  </div>
