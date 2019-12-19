@@ -14,6 +14,7 @@ This is coffee shop site it have features like
 <li>Contrasting color schemeusable</li> 
 <li>Easily accesseble</li>
 <li>Usable forms</>
+forms like login ,register,contact us
 <h4>Plan for the project </h4>
 <li>week 8: set up </li>
 <li>week 9:50% of home page</li>
