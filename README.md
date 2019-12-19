@@ -5,6 +5,7 @@ I planned to use
 <li>html</li>
 <li>java script</li>
 <li>node js</li>
+<li>mongodb</li>
 <li>bootstrap</li>
 <li>CSS</li> to build this project.
 <h3>features</h3>
